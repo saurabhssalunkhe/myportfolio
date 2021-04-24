@@ -69,7 +69,7 @@ function Resume() {
               content={[
                 "Current rank in HackerRank 25987",
                 "Top Performer in VIIT Code-a-Thon",
-                "Participated  Smart India Hackathon'17",
+                "Participated in Smart India Hackathon'17",
               ]}
             />
           </Col>
