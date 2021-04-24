@@ -15,19 +15,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming in 1st year of BE and till date I think, I have learnt something...🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I have good hands-on
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                <b className="purple"> C++, Java and Sql </b>
               </i>
               <br />
               <br />
-              My current focus is on &nbsp;
+              I aspire to become a &nbsp;
               <i>
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
+                  Full Stack Developer.
                 </b>
               </i>
               <br />
@@ -39,8 +38,17 @@ function Home2() {
               </i>
                 &nbsp; like
               <i>
-                <b className="purple"> Node.js and React.js</b>
+                <b className="purple"> Node, React and Vue js</b>
               </i>
+              <br />
+              <br />
+              Currently I am learning &nbsp;
+              <i>
+                <b className="purple">
+                Golang.
+                </b>
+              </i>
+              <br />    
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -58,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/saurabhssalunkhe"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -68,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/saurabhsalunkh2/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/saurabh-salunkhe-755022168/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +96,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/_saurabhsalunkhe/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
