@@ -23,7 +23,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I aspire to become a &nbsp;
+              I aspire to become a&nbsp;
               <i>
                 <b className="purple">
                   Full Stack Developer.
