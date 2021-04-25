@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/saurabhsalunkhe.pdf";
 
 function Resume() {
   
@@ -36,13 +36,13 @@ function Resume() {
             <Resumecontent
               title="Web Developer [Addiction'19 Technical Fest of PICT, Pune]"
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Part of Web Development Team, developed the frontend-end of Addiction website using Bootstrap, Javascript.",
               ]}
             />
             <Resumecontent
               title="Survey Website [Full Stack team project]"
               content={[
-                "Operated on developing the frontend end of the website using React, Javascript and backend APIs using Node.js",
+                "Worked on developing the frontend end of the website using React, Javascript and backend APIs using Node.js",
               ]}
             />
           </Col>
@@ -59,7 +59,7 @@ function Resume() {
               content={["Precentage: 90.80%"]}
             />
             <Resumecontent
-              title="10th BOARD [KES highschool, Alibag] "
+              title="10th SSC Board [KES highschool, Alibag] "
               date="2014 - 2015"
               content={["Precentage: 85.80%"]}
             />
@@ -67,9 +67,9 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                "Current rank in HackerRank 25987",
-                "Top Performer in VIIT Code-a-Thon",
                 "Participated in Smart India Hackathon'17",
+                "Top Performer in VIIT Code-a-Thon",
+                "Current rank in HackerRank 25987",
               ]}
             />
           </Col>

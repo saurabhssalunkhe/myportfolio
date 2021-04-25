@@ -15,7 +15,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming in 1st year of BE and till date I think, I have learnt something...🤷‍♂️
+              I fell in love with programming in 2nd year of BE and till date I think, I have learnt something...🤷‍♂️
               <br />
               <br />I have good hands-on
               <i>
@@ -42,7 +42,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Currently I am learning &nbsp;
+              Currently I am learning&nbsp;
               <i>
                 <b className="purple">
                 Golang.

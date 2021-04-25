@@ -7,10 +7,10 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
+import emotion from "../../Assets/Projects/unsplash.jpg";
+import editor from "../../Assets/Projects/LMS.jpeg";
 import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
+import suicide from "../../Assets/Projects/placement.jpg";
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
 
@@ -30,9 +30,15 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Crop Recommendation System"
+              description="Developed a smart agriculture system which is
+              automated to help farmers to increase crop production by
+              predicting the crop to be sown. The system will detect soil
+              quality and provided a list of selected general crops placed
+              on a database. The system used different sensors that
+              measured pH level, soil moisture, temperature, and
+              humidity."
+              link=""
             />
           </Col>
 
@@ -40,9 +46,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Library Management System"
+              description="This system is developed in .Net and backed by MySql server for operating on real-time tasks like book issuing, monitoring book status, collecting fine, etc performed in Library. Also the system facilitates reports generation for auditing purposes and scheduled back-ups."
+              link="https://www.youtube.com/watch?v=wyJHnXzRW8w"
             />
           </Col>
 
@@ -50,9 +56,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Digital Placement Cell"
+              description="Designed and Developed a compact system that would carry all college placement activities including real time notification regarding new company visit, monitoring placed and unplaced students, getting responses from students. The project focused on Sql operations for effective functioning of the system."
+              link="https://drive.google.com/drive/folders/1pCj_FA0LY8yoruQrYQKP4rJb3aKR8M25?usp=sharing"
             />
           </Col>
 
@@ -60,10 +66,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Unsplash API calls using Axios"
+              description="Developed a simple interfaced React project that facilitated displaying photos related to search term. Interacted with the Unsplash API using the Axios library for getting responses and rendered it on the screen."
+              link="https://github.com/saurabhssalunkhe/unsplash-api-calls"
             />
           </Col>
 
@@ -78,24 +83,23 @@ function Projects() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
+          My Recent <strong className="purple">Blog </strong> Posts and<strong className="purple"> Research Papers </strong>
         </h1>
         <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
+              link="https://www.quora.com/How-do-I-write-efficient-code"
+              title="Coding Practices"
+              site="quora.com"
             />
           </Col>
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
+              link="https://drive.google.com/file/d/1mkeAETXe-xW8QplRJnJsJhm_V86_diaC/view?usp=sharingplant-ai-c8fc95ed90e6"
+              title="IOT and ML based Crop Recommendation System"
             />
           </Col>
         </Row>
