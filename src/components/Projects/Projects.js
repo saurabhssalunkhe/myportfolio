@@ -33,11 +33,9 @@ function Projects() {
               title="Crop Recommendation System"
               description="Developed a smart agriculture system which is
               automated to help farmers to increase crop production by
-              predicting the crop to be sown. The system will detect soil
-              quality and provided a list of selected general crops placed
-              on a database. The system used different sensors that
-              measured pH level, soil moisture, temperature, and
-              humidity."
+              predicting the crop to be sown. The system takes input parameters like 
+              pH level, soil moisture, temperature via sensors and provides a list of selected 
+              general crops placed on the database."
               link=""
             />
           </Col>
@@ -57,7 +55,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Digital Placement Cell"
-              description="Designed and Developed a compact system that would carry all college placement activities including real time notification regarding new company visit, monitoring placed and unplaced students, getting responses from students. The project focused on Sql operations for effective functioning of the system."
+              description="Designed and Developed a compact system that would carry out all college placement activities including real time notification regarding new company visit, monitoring placed and unplaced students, getting responses from students. The project focused on Sql operations for effective functioning of the system."
               link="https://drive.google.com/drive/folders/1pCj_FA0LY8yoruQrYQKP4rJb3aKR8M25?usp=sharing"
             />
           </Col>
@@ -67,7 +65,7 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Unsplash API calls using Axios"
-              description="Developed a simple interfaced React project that facilitated displaying photos related to search term. Interacted with the Unsplash API using the Axios library for getting responses and rendered it on the screen."
+              description="Developed a simple interfaced React project that facilitates displaying photos related to the search term. The System interacts with Unsplash API using the Axios library for getting responses and renderes it on the screen."
               link="https://github.com/saurabhssalunkhe/unsplash-api-calls"
             />
           </Col>
@@ -90,7 +88,7 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={algo}
-              link="https://www.quora.com/How-do-I-write-efficient-code"
+              link="https://www.quora.com/What-is-the-best-way-to-code/answer/Saurabh-Salunkhe-4"
               title="Coding Practices"
               site="quora.com"
             />
