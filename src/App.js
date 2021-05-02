@@ -11,6 +11,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-8LLMGD47WD"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
+
+
 function App() {
   const [load, upadateLoad] = useState(true);
   useEffect(() => {

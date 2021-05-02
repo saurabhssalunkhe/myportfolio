@@ -8,6 +8,26 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
+function loadScriptAsync(scriptSrc, callback) {
+  if (typeof callback !== 'function') {
+      throw new Error('Not a valid callback for async script load');
+  }
+  var script = document.createElement('script');
+  script.onload = callback;
+  script.src = scriptSrc;
+  document.head.appendChild(script);
+}
+
+loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=G-8LLMGD47WD', function(){
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date()); 
+    gtag('config', 'G-8LLMGD47WD');
+})
+
+
+
+
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
